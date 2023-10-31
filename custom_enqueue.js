@@ -61,6 +61,6 @@
     try {
         processAnchors();
     } catch (e) {
-        console.error('link_target_blank.js error', e);
+        console.error('custom_enqueue.js error', e);
     }
 })(location, document);
